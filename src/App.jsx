@@ -1,5 +1,6 @@
 import React from 'react';
-import { Container, Header } from 'semantic-ui-react'
+import { Container, Header } from 'semantic-ui-react';
+import { connect } from 'react-redux';
 
 const App = () => {
   return (
@@ -14,4 +15,4 @@ const App = () => {
   );
 }
 
-export default App;
+export default connect()(App)
