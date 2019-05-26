@@ -1,5 +1,5 @@
 const initialState = {
-  greeting: 'Hello World from Redux',
+  greeting: 'Hello World from Carrosen exploring Redux',
   propsed_greeting: ''
 }
 
